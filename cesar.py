@@ -7,7 +7,7 @@ from time import sleep
 borra = 0
 #==========================Funciones=================================
 def borra_pantalla(): #función para limpiar la consola
-	subprocess.run("cls", shell=True)
+	subprocess.run("clear", shell=True)
 
 def cifrar():
 	cadena = input("por favor ingrese la cadena a cifrar: ")
